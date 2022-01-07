@@ -11,7 +11,7 @@ namespace InternationalVillage_Sever
     {
         static void Main(string[] args)
         {
-            var url = "http://localhost:8080/";
+            var url = "http://localhost:8087/";
             using (WebApp.Start<Startup>(url))
             {
                 Console.WriteLine($"Server running at {url}");
